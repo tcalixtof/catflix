@@ -32,7 +32,9 @@ function CadastroCategoria() {
 
   useEffect(() => {
     console.log('OI');
-    const URL ='http://localhost:8080/categorias';
+    const URL = window.location.hostname.includes('localhost')
+    ? 'http://localhost:8080/categorias'
+    : 'https://catfliix.herokuapp.com/categorias';
     fetch (URL)
     .then(async (respostaDoServidor) => {
       const resposta = await respostaDoServidor.json ();
