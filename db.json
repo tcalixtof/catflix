@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome":"Gateiros de Primeira Viagem",
+            "descricao": "Uma categoria",
+            "cor": "cdd1ff"
+        },
+        {
+            "id": 2,
+            "nome":"Dicas",
+            "descricao": "Outra categoria",
+            "cor": "cdd1ff"
+        }
+    ]
+}
